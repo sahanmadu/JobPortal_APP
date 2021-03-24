@@ -18,20 +18,27 @@
 
         android:layout_marginLeft="120dp"/>
 
+    <EditText
+        android:id="@+id/txtJobID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Job Title"
-        android:textColor="@color/black"
-        android:padding="12dp"
-        android:textSize="17dp"
-        android:layout_below="@id/title"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:textSize="17dp"
+            android:layout_below="@id/title"
+            />
 
         <EditText
             android:id="@+id/txtjTitle"
@@ -61,7 +68,7 @@
             android:id="@+id/txtjDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Job Title"
+            android:hint="Job Description"
             android:layout_marginLeft="5dp"
             android:textAlignment="center"/>
     </LinearLayout>
@@ -85,7 +92,7 @@
             android:id="@+id/txtjRe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Job Title"
+            android:hint="Job Requirements"
             android:layout_marginLeft="5dp"
             android:textAlignment="center"/>
 
@@ -110,7 +117,7 @@
             android:id="@+id/txtJsalary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Job Title"
+            android:hint="Job Salary"
             android:layout_marginLeft="50dp"
             android:textAlignment="center"/>
     </LinearLayout>
@@ -125,8 +132,7 @@
             android:text="ADD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="170dp"
-            android:paddingLeft="11dp"/>
+            android:layout_marginLeft="170dp"></Button>
 
     </LinearLayout>
 
@@ -137,10 +143,10 @@
         android:orientation="horizontal">
 
         <ListView
-            android:id="@+id/listViewHeroes"
+            android:id="@+id/listViewJobs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-             />
+            />
 
         <ProgressBar
             android:id="@+id/progressBar"
