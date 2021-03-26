@@ -251,6 +251,8 @@ public class AddJobs extends AppCompatActivity {
         }
     }
 
+    //show jobs
+
     class JobAdapter extends ArrayAdapter<Job> {
         List<Job> jobList;
 
