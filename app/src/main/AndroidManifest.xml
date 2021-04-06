@@ -10,18 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JobPortal">
         <activity android:name=".Load_Frag">
+
+        </activity>
+        <activity android:name=".ShowJobs">
+
+        </activity>
+        <activity android:name=".AddJobs">
+
+        </activity>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".AdminPanel" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowJobs">
-
-        </activity>
-        <activity android:name=".AddJobs"></activity>
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".AdminPanel" />
         <activity android:name=".MainActivity" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />

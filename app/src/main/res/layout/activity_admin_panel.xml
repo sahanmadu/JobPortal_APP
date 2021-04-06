@@ -84,7 +84,7 @@
                 android:textColor="#ffff"></TextView>
 
             <Button
-                android:id="@+id/btnMap"
+                android:id="@+id/btnAddJobs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -113,12 +113,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CV DETAILS"
+                    android:text="SHOW JOBS"
                     android:textSize="30sp"
                     android:padding="25dp"></TextView>
 
                 <Button
-                    android:id="@+id/btnWeather"
+                    android:id="@+id/btnShowJobs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -133,7 +133,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/cv"
+                android:src="@drawable/addjob"
                 android:layout_marginTop="-40dp"
                 android:layout_alignParentRight="true"/>
         </RelativeLayout>
